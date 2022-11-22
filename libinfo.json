@@ -1,0 +1,15 @@
+{
+	"name":"FreeRTOS",
+	"ipaths":[
+		"include",
+		"portable/GCC/ARM_CM4F",
+		"portable/GCC/RISC-V"
+	],
+	"vpaths":[
+		".",
+		"portable/GCC/ARM_CM4F",
+		"portable/GCC/RISC-V"
+	],
+	"makefile":"freertos.mk",
+	"whitelist":"False"
+}
