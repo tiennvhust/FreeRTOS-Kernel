@@ -65,9 +65,10 @@ SRCS += tasks.c
 SRCS += port.c
 SRCS += heap_2.c
 SRCS += timers.c
-SRCS += croutine.c
 SRCS += event_groups.c
 SRCS += stream_buffer.c
+SRCS += config.c
+SRCS += stack.c
 
 # Where to find source files for this project
 VPATH  = portable/GCC/ARM_CM4F
